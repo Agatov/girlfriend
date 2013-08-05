@@ -1,0 +1,103 @@
+body
+  padding: 0px
+  margin: 0px
+  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
+  background: #000
+
+
+.wrapper
+  width: 960px
+  margin: 0 auto
+
+.topbar
+  width: 100%
+  height: 60px
+  position: fixed
+  background: #000
+  opacity: 0.7
+
+.intro
+  width: 100%
+  height: 700px
+  background: url('/assets/intro_bg.jpg') no-repeat
+  background-size: cover
+
+  .desc
+    padding-top: 50px
+    text-align: center
+    font-size: 54px
+    font-weight: 200
+    color: #fff
+    text-shadow: 0 1px 1px #333333
+
+
+  .about
+    text-align: center
+    margin: 0px auto
+    width: 760px
+    margin-top: 30px
+    font-size: 24px
+    line-height: 1.5
+    font-weight: 200
+    color: #fff
+    text-shadow: 0 1px 1px #333333
+
+
+  .top-form
+    margin: 0px auto
+    margin-top: 100px
+    width: 870px
+    height: 40px
+    padding: 20px
+    background: #fff
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.4)
+
+
+    input
+      width: 260px
+      height: 40px
+      border: 1px solid #ccc
+      font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
+      font-size: 16px
+      padding: 0px 15px
+      margin-right: 10px
+
+    button
+      background: #96bf48
+      border: 1px solid #8bb43f
+      text-shadow: 0 1px 0 #80a53a
+      width: 250px
+      height: 42px
+      color: #fff
+      font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif
+      font-size: 16px
+      text-align: center
+      -webkit-transition: all, 0.15s
+      cursor: pointer
+
+      &:hover
+        background: #9fc749
+
+
+  .samples
+    margin-top: 100px
+    &:after
+      clear: both
+      content: "."
+      display: block
+      height: 0
+      clear: both
+      visibility: hidden
+
+    .sample
+      float: left
+      width: 440px
+      text-align: center
+      font-size: 56px
+      color: #fff
+      text-shadow: 0 1px 1px #333333
+      &:nth-child(2n)
+        float: right
+
+      .pink
+        color: #EC4989
