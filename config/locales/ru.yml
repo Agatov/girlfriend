@@ -10,3 +10,7 @@ en:
   time:
     formats:
       dayMonth: "%d %B"
+
+  emails:
+    call_mail:
+      subject: Заявка на звонок
