@@ -10,7 +10,7 @@ class Order < ActiveRecord::Base
             method: 'push_msg',
             email: 'agatovs@gmail.com',
             password: 'avv6rqE',
-            phone: '79063959102',
+            phone: '79037928959',
             text: sms_text,
             sender_name: 'sorry.helpmego.ru'
         }
